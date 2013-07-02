@@ -1,0 +1,11 @@
+The development of a program that implements the Huffman algorithm, and its application of a file. n consecutive bytes containing the file will be considered as symbols, with probability equal to the relative frequency of occurrence.
+
+The program is invoked from the command line using the following syntax
+> Huffman <file> <n>
+being the first argument the name of the file to be processed and the second one a  natural number.
+
+The program will build compact binary code produced by the Huffman algorithm and then use it to calculate the rate of compression on the content of the original file. The standard output in this order:
+· Length (bytes) of the original file and the compressed sequence.
+· The compression rate.
+· The code built, at a rate of one word per line. Each line con-tara of a triple (s, p, w), where s is the symbol written in hexadecimal notation, p is the relative frequency of the word w is assigned code anything.
+·The length of the code and its efficiency.
